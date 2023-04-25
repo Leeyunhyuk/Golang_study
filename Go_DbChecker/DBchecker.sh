@@ -1,0 +1,1 @@
+go build -o GoDBchecker GoDBchecker.go
