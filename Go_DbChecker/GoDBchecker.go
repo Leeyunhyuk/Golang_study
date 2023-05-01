@@ -12,7 +12,7 @@ import (
 const (
 	COLOUM_PROPERTIES = `SELECT COLUMN_NAME AS 'Field', COLUMN_TYPE AS 'Type', IS_NULLABLE AS 'NULL', COLUMN_DEFAULT AS 'Default'
 	FROM information_schema.COLUMNS  
-	WHERE TABLE_SCHEMA = 'sdi_ems' AND TABLE_NAME = 't_sdi_service_resource_usage_hist';`
+	WHERE TABLE_SCHEMA = 'DB_name' AND TABLE_NAME = 'Table_name';`
 )
 
 type dbProp struct {
